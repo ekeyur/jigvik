@@ -118,7 +118,7 @@ b.light-color{ color: #444; }
 	box-shadow: 2px 5px 30px rgba(0,0,0,.3); color: #fff; }
 
 .main-area:after{ content:''; position: absolute; top: 0; bottom: 0;left: 0; right: 0; z-index: -1;  
-	opacity: .4; background: #000; }
+	opacity: .1; background: #000; }
 
 .main-area .desc{ margin: 20px auto; max-width: 500px; }
 	
