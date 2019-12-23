@@ -1,59 +1,629 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-	<title>J&V</title>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		
+	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
+	<title>Vikram & Jegnasha</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
 	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Magnific popup  -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 	
-	<!-- Font -->
+	<link rel="stylesheet" href="css/style.css">
 
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<header role="banner" id="qbootstrap-header">
+		<div class="container">
+			<!-- <div class="row"> -->
+		    <nav class="navbar navbar-default">
+	        <div class="navbar-header">
+	        	<!-- Mobile Toggle Menu Button -->
+				<a href="#" class="js-qbootstrap-nav-toggle qbootstrap-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+	          	<a class="navbar-brand" href="index.html">V&J</a> 
+	        </div>
+	        <div id="navbar" class="navbar-collapse collapse">
+	          <ul class="nav navbar-nav navbar-right">
+	            <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
+	            <li><a href="#" data-nav-section="groom-bride"><span>Groom &amp; Bride</span></a></li>
+	            <li><a href="#" data-nav-section="story"><span>Our Story</span></a></li>
+	            <li><a href="#" data-nav-section="when-where"><span>When &amp; Where</span></a></li>
+	            <li><a href="#" data-nav-section="gallery"><span>Gallery</span></a></li>
+	            <li><a href="#" data-nav-section="explore"><span>Explore Udaipur</span></a></li>
+	          </ul>
+	        </div>
+		    </nav>
+		  <!-- </div> -->
+	  </div>
+	</header>
 	
-	
-	<link href="./common-css/ionicons.css" rel="stylesheet">
-	
-	
-	<link rel="stylesheet" href="common-css/jquery.classycountdown.css" />
-		
-	<link href="./css/styles.css" rel="stylesheet">
-	
-	<link href="./css/responsive.css" rel="stylesheet">
-	
-</head>
-<body>
-	
-	<div class="main-area-wrapper" style="background-image:url(images/jigvik.jpg);">
-		<div class="main-area center-text" >
+	<div class="qbootstrap-hero" data-section="home">
+		<div class="qbootstrap-overlay"></div>
+		<div class="qbootstrap-cover video-hero text-center" style="background-image: url(images/jigvik.jpg); background-size: cover; background-position: center">
+			<div class="display-t">
+				<div class="display-tc">
+					<div class="container">
+						<div class="col-md-10 col-md-offset-1">
+							<div class="animate-box svg-sm colored">
+								<h2>Jegnasha &amp; Vikram</h2>
+								<p>01.25.2020</p>
+							</div>
+						</div>
+						
+					</div>
+						<div class="col-md-8 col-md-offset-2 text-center" >
+							<p class="countdown" style="letter-spacing: 1px;">
+								<span id="days" ></span>
+								<span id="hours"></span>
+								<span id="minutes"></span>
+								<span id="seconds"></span>
+							</p>
+						</div>
+				</div>
+			</div>
 			
-			<div class="display-table">
-				<div class="display-table-cell">
+			
 					
-					
-					
-					
-					
-					
-					<ul class="social-btn">
-					<div id="normal-countdown" data-date="2020/01/25"></div>
-		
-						<li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
+		</div>
+	</div>
 
-					</ul>
+	<div id="qbootstrap-couple" class="qbootstrap-section-gray" data-section="groom-bride">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 animate-box">
+					<div class="col-md-12 text-center section-heading svg-sm colored">
+						<h2 style="margin-bottom: -50px">Are Getting Married!</h2>
+						<img src="images/flaticon/svg/006-flower-bell-outline-design-variant-with-vines-and-leaves.svg" class="svg" alt="leaves" style="margin-top : -20px; margin-bottom: -50px">
+						<h3>Meet the happily ever after couple</h3>
+					</div>
+				</div>
+			</div>
+			<div class="row animate-box">
+				<div class="col-md-7 col-md-offset-3 text-center">
+					<div class="col-md-5 col-sm-5 col-xs-5 nopadding">
+						<img src="images/vik.jpg" class="img-responsive" alt="groom" height="200" width="200">
+						<h3>Vikram Patel</h3>
+						<span>Groom</span>
+					</div>
 					
-				</div><!-- display-table -->
-			</div><!-- display-table-cell -->
-		</div><!-- main-area -->
-	</div><!-- main-area-wrapper -->
+					<div class="col-md-5 col-sm-5 col-xs-5 nopadding">
+						<img src="images/jigi.jpg" class="img-responsive" alt="bride" height="200" width="200">
+						<h3>Jegnasha Patel</h3>
+						<span>Bride</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="qbootstrap-story" data-section="story">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-12 text-center section-heading svg-sm-2">
+						<h2>“Our story, Our Adventures"</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="timeline animate-box">
+						<li class="animate-box">
+							<div class="timeline-badge" style="background-image:url(images/brookhaven.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="overlay"></div>
+								<div class="timeline-heading">
+									<h3 class="timeline-title">February 2015</h3>
+									<span class="date">Brookhaven, GA</span>
+								</div>
+								<div class="timeline-body">
+									<p>Th story begins in February 2015. This was when they met for the first time. Vik asked Jiggy on their first date to a Thai restaurant in Brookhaven, GA. Everyone loves Thai!!</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge" style="background-image:url(images/official.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="overlay overlay-2"></div>
+								<div class="timeline-heading">
+									<h3 class="timeline-title">August 2015</h3>
+									<span class="date">Atlanta, GA</span>
+								</div>
+								<div class="timeline-body">
+									<p>He asked her if she would like to make it "official".  She said "It's about time you asked!" So their friendship turned to the next level of romance.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge" style="background-image:url(images/gallery/gallery-5.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="overlay"></div>
+								<div class="timeline-heading">
+									<h3 class="timeline-title">November 2015</h3>
+									<span class="date">Peachtree Corners, GA</span>
+								</div>
+								<div class="timeline-body">
+									<p>Jiggy met Vik's mom at Chipotle for an awkwardly fun date. It's still not settled whether the daughter-in-law or mother-in-law had lettuce stuck in their teeth. Be sure to ask them.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge" style="background-image:url(images/mar_16.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="overlay overlay-2"></div>
+								<div class="timeline-heading">
+									<h3 class="timeline-title">March 2016</h3>
+									<span class="date">Charleston, SC</span>
+								</div>
+								<div class="timeline-body">
+									<p>Could they tolerate each other for 5 hours trapped in a car? Well, they decided to give it a test by taking their first road trip to Charleston, SC. Although now Vik isn’t allowed to sing out loud and Jiggy isn’t allowed to fall asleep within the first hour.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge" style="background-image:url(images/sept_16.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="overlay"></div>
+								<div class="timeline-heading">
+									<h3 class="timeline-title">September 2016</h3>
+									<span class="date">Mexico</span>
+								</div>
+								<div class="timeline-body">
+									<p>Feeling bold, they decided to take their first International trip with friends to Riviera Maya, Mexico.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge" style="background-image:url(images/utah.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="overlay overlay-2"></div>
+								<div class="timeline-heading">
+									<h3 class="timeline-title">October 2016</h3>
+									<span class="date">Salt Lake City, UT</span>
+								</div>
+								<div class="timeline-body">
+									<p>By now, Jiggy was in Utah for her rotations. Well the story had to continue, so Vik decided to get on a jet and fly out to Salt Lake. From there they drove 8 hours round trip in one day (not recommended) to hike up the Arches in Moab (highly recommended).</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge" style="background-image:url(images/gallery/gallery-18.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="overlay"></div>
+								<div class="timeline-heading">
+									<h3 class="timeline-title">December 2016</h3>
+									<span class="date">Gainesville, GA</span>
+								</div>
+								<div class="timeline-body">
+									<p>Vik Met Jiggy’s parents for the first time at her graduation ceremony from Occupational Therapy school. There was some confusion between Jai Shree Krishna and Jai Swaminarayan.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="overlay overlay-2"></div>
+								<div class="timeline-heading">
+									<h3 class="timeline-title">April 2017</h3>
+									<span class="date">Atlanta, GA</span>
+								</div>
+								<div class="timeline-body">
+									<p>Both sets of parents met. Hum Saath Saath Hain music played in the background.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge" style="background-image:url(images/bahamas.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="overlay"></div>
+								<div class="timeline-heading">
+									<h3 class="timeline-title">September 2017</h3>
+									<span class="date">The Bahamas</span>
+								</div>
+								<div class="timeline-body">
+									<p>Vik turned 30! So young still. A new tradition started "Birthday trips". They set sail on his first cruise to the Bahamas.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge" style="background-image:url(images/atlanta.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="overlay overlay-2"></div>
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Halfway 2018</h3>
+									<span class="date">Atlanta, GA</span>
+								</div>
+								<div class="timeline-body">
+									<p>Lots of movie dates, dinners at Taj, Beltline bike rides and many fun dates in the city.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge" style="background-image:url(images/bali.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="overlay"></div>
+								<div class="timeline-heading">
+									<h3 class="timeline-title">September 2018</h3>
+									<span class="date">Bali</span>
+								</div>
+								<div class="timeline-body">
+									<p>Took a “quick” flight to Singapore & Bali. He asked, "..hey will you marry me?" She said, "wrong hand, but YES!"</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge" style="background-image:url(images/rajasthan.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="overlay overlay-2"></div>
+								<div class="timeline-heading">
+									<h3 class="timeline-title">2019</h3>
+									<span class="date">Rajasthan</span>
+								</div>
+								<div class="timeline-body">
+									<p>Wedding planning had begun in full swing! As time flew by, here we are now - seeking your blessings for our continued journey</p>
+								</div>
+							</div>
+						</li>
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="qbootstrap-when-where" data-section="when-where">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-12 text-center section-heading svg-sm colored">
+						<img src="images/flaticon/svg/005-two.svg" class="svg" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
+						<h2>When &amp Where</h2>
+						<div class="row">
+						<div class="col-md-10 col-md-offset-1 subtext">
+							
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-md">
+				<div class="col-md-6 text-center animate-box">
+					<div class="wedding-events">
+						
+						<div class="desc">
+							<h3>Guest Arrival</h3>
+							<div class="row">
+								<div class="col-md-2 col-md-push-5">
+									<div class="icon-tip">
+										<span class="icon"><i class="icon-heart-o"></i></span>
+									</div>
+								</div>
+								<div class="col-md-5 col-md-pull-1">
+									<div class="date">
+										<i class="icon-calendar"></i>
+										<span>Friday</span>
+										<span>24 Jan. 2020</span>
+									</div>
+								</div>
+								<div class="col-md-5 col-md-pull-1">
+									<div class="date">
+										<i class="icon-clock2"></i>
+										<span>12:00 PM</span>
+										<span>Check in</span>
+									</div>
+								</div>
+							</div>
+							<p>The Ananta, Udaipur, Rajasthan</p>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 text-center animate-box">
+					<div class="wedding-events">
+					
+						<div class="desc">
+							<h3>Sangeet &amp Mehndi</h3>
+							<div class="row">
+								<div class="col-md-2 col-md-push-5">
+									<div class="icon-tip">
+										<span class="icon"><i class="icon-heart-o"></i></span>
+									</div>
+								</div>
+								<div class="col-md-5 col-md-pull-1">
+									<div class="date">
+										<i class="icon-calendar"></i>
+										<span>Friday</span>
+										<span>24 Jan. 2020</span>
+									</div>
+								</div>
+								<div class="col-md-5 col-md-pull-1">
+									<div class="date">
+										<i class="icon-clock2"></i>
+										<span>05:00 PM</span>
+										<span>08:00 PM</span>
+									</div>
+								</div>
+							</div>
+							<p>Outdoor Lawn, The Ananta</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 text-center animate-box">
+					<div class="wedding-events">
+					
+						<div class="desc">
+							<h3>Wedding Ceremony</h3>
+							<div class="row">
+								<div class="col-md-2 col-md-push-5">
+									<div class="icon-tip">
+										<span class="icon"><i class="icon-heart-o"></i></span>
+									</div>
+								</div>
+								<div class="col-md-5 col-md-pull-1">
+									<div class="date">
+										<i class="icon-calendar"></i>
+										<span>Saturday</span>
+										<span>25 Jan. 2020</span>
+									</div>
+								</div>
+								<div class="col-md-5 col-md-pull-1">
+									<div class="date">
+										<i class="icon-clock2"></i>
+										<span>10:00 AM</span>
+										<span>12:00 PM</span>
+									</div>
+								</div>
+							</div>
+							<p>The Ananta, Udaipur, Rajasthan</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 text-center animate-box">
+					<div class="wedding-events">
+			
+						<div class="desc">
+							<h3>Reception</h3>
+							<div class="row">
+								<div class="col-md-2 col-md-push-5">
+									<div class="icon-tip">
+										<span class="icon"><i class="icon-heart-o"></i></span>
+									</div>
+								</div>
+								<div class="col-md-5 col-md-pull-1">
+									<div class="date">
+										<i class="icon-calendar"></i>
+										<span>Saturday</span>
+										<span>25 Jan. 2020</span>
+									</div>
+								</div>
+								<div class="col-md-5 col-md-pull-1">
+									<div class="date">
+										<i class="icon-clock2"></i>
+										<span>06:00 PM</span>
+										<span>12:00 AM</span>
+									</div>
+								</div>
+							</div>
+							<p>The Ananta, Udaipur, Rajasthan</p>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div id="map" class="qbootstrap-map"></div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+	
+	<div id="qbootstrap-gallery" data-section="gallery">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-12 text-center section-heading svg-sm colored">
+						<img src="images/flaticon/svg/005-two.svg" class="svg" alt="#getjiggyvikit">
+						<h2>Our Photos</h2>
+						<div class="row">
+						<div class="col-md-10 col-md-offset-1 subtext">
+							<h3></h3>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup image-popup" href="images/gallery/gallery-1.jpg"><img src="images/gallery/gallery-1.jpg" class="img-responsive" alt="#getjiggyvikit"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery/gallery-10.jpg"><img src="images/gallery/gallery-10.jpg" class="img-responsive" alt="#getjiggyvikit"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery/gallery-11.jpg"><img src="images/gallery/gallery-11.jpg" class="img-responsive" alt="#getjiggyvikit"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery/gallery-16.jpg"><img src="images/gallery/gallery-16.jpg" class="img-responsive" alt="#getjiggyvikit"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery/gallery-5.jpg"><img src="images/gallery/gallery-5.jpg" class="img-responsive" alt="#getjiggyvikit"></a>
+					</div>
+				</div>	
+				<div class="col-md-3 col-sm-6">
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery/gallery-6.jpg"><img src="images/gallery/gallery-6.jpg" class="img-responsive" alt="#getjiggyvikit"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery/gallery-2.jpg"><img src="images/gallery/gallery-2.jpg" class="img-responsive" alt="#getjiggyvikit"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery/gallery-17.jpg"><img src="images/gallery/gallery-17.jpg" class="img-responsive" alt="#getjiggyvikit"></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery/gallery-7.jpg"><img src="images/gallery/gallery-7.jpg" class="img-responsive" alt="#getjiggyvikit"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery/gallery-3.jpg"><img src="images/gallery/gallery-3.jpg" class="img-responsive" alt="#getjiggyvikit"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery/gallery-4.jpg"><img src="images/gallery/gallery-4.jpg" class="img-responsive" alt="#getjiggyvikit"></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery/gallery-12.jpg"><img src="images/gallery/gallery-12.jpg" class="img-responsive" alt="#getjiggyvikit"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery/gallery-13.jpg"><img src="images/gallery/gallery-13.jpg" class="img-responsive" alt="#getjiggyvikit"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery/gallery-14.jpg"><img src="images/gallery/gallery-14.jpg" class="img-responsive" alt="#getjiggyvikit"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery/gallery-15.jpg"><img src="images/gallery/gallery-15.jpg" class="img-responsive" alt="#getjiggyvikit"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery/gallery-18.jpg"><img src="images/gallery/gallery-18.jpg" class="img-responsive" alt="#getjiggyvikit"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="qbootstrap-press" data-section="explore">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-12 text-center section-heading svg-sm colored">
+						<img src="images/flaticon/svg/005-two.svg" class="svg" alt="#getjiggyvikit">
+						<h2>Explore Udaipur</h2>
+						<div class="row">
+						<div class="col-md-10 col-md-offset-1 subtext">
+							<h3></h3>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="qbootstrap-press-item animate-box">
+						<div class="qbootstrap-press-img" style="background-image: url(images/udaipur1.jpg)">
+						</div>
+						<div class="qbootstrap-press-text">
+							<h3 class="h2 qbootstrap-press-title">2 days itinerary <span class="qbootstrap-border"></span></h3>
+							<p>Udaipur in India is known as the city of lakes and below we present to you the 12 Places To Visit In Udaipur In 2 Days</p>
+							<p><a href="https://www.dreambigtravelfarblog.com/blog/places-to-visit-in-udaipur-in-2-days" class="btn btn-primary btn-sm">Learn more</a></p>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					 
+				<div class="col-md-6">
+					<div class="qbootstrap-press-item animate-box">
+						<div class="qbootstrap-press-img" style="background-image: url(images/udaipur2.jpg)">
+						</div>
+						<div class="qbootstrap-press-text">
+							<h3 class="h2 qbootstrap-press-title">3 days itinerary <span class="qbootstrap-border"></span></h3>
+							<p>3 days 👑 BEST places to visit in Udaipur itinerary 👑 Backpacking Rajasthan North India</p>
+							<p><a href="https://www.flashpackingkerala.com/india-travel/places-to-visit-in-udaipur-in-3-days-itinerary/" class="btn btn-primary btn-sm">Learn more</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="footer" role="contentinfo">
+		<div class="container">
+			<div class="row row-bottom-padded-sm">
+				<div class="col-md-12">
+					<p class="copyright text-center">&copy; 2020 <a href="index.html">Wedding</a></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<ul class="social social-circle">
+						<li><a href="#"><i class="icon-twitter"></i></a></li>
+						<li><a href="#"><i class="icon-facebook"></i></a></li>
+						<li><a href="#"><i class="icon-youtube"></i></a></li>
+						<li><a href="#"><i class="icon-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
 	
 	
-	<!-- SCIPTS -->
-	
-	<script src="common-js/jquery-3.1.1.min.js"></script>
-	
-	<script src="common-js/jquery.countdown.min.js"></script>
-	
-	<script src="common-js/scripts.js"></script>
-	
-</body>
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
